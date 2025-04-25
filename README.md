@@ -31,8 +31,8 @@ I would say that given that the computer is processing at the same rate, the pro
 #### 3
 
 1. Both the average and best case time complexities of searching a binary search tree are $\Theta(log(n))$. Considering this, the tree must have been fairly skewed one way or another, to a point where the traversal was similar to that of a linked list.
-2. A physical, more real-world, type of problem could be lack of necessary memory to handle a massive tree and the recursive steps might have gotten out of hand. Although $log_2(10000) = 13.2877...$, so maybe the RAM was not very accessible at the time.
-3. An extension of 2: maybe the computer that was performing the search of the tree was also carrying out a multitude of other processes at the same time, therefore limiting the ability to handle a large input size efficiently.
+2. A physical, more real-world, type of problem could be lack of necessary memory to handle a massive tree. Although, since $log_2(10000) = 13.2877...$ the computer was probably busy carrying out other tasks, and the program was therefore slowed down.
+3. I think this process also could have been carried out on a slower computer. It was never said that the two tests were carried out with the same processing power.
 
 ---
 
